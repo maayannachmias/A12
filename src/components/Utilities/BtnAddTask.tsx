@@ -12,7 +12,10 @@ const BtnAddTask: React.FC<{ className?: string }> = ({ className }) => {
   return (
     <button
       className={`btn ${className}`}
+<<<<<<< HEAD
       onClick={onOpenModal}
+=======
+>>>>>>> 6121bd2978936fe6d9fc8ecdfc054434f4bb2d43
     >
       {/* For small to medium screens, show only "+" */}
       <span className="xl:hidden ">+</span>

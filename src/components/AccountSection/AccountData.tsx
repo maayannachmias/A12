@@ -24,8 +24,13 @@ const AccountData: React.FC = () => {
     >
       <section className="p-5 flex flex-col h-full">
         <span className="flex items-center mx-auto">
+<<<<<<< HEAD
           <span className="font-medium">Hi, User!</span>
           <img src={avatar1} alt="cat" className="w-10 rounded-full ml-4" />
+=======
+          {/* <span className="font-medium">Hi, User!</span> */}
+          {/* <img src={avatar1} alt="cat" className="w-10 rounded-full ml-4" /> */}
+>>>>>>> 6121bd2978936fe6d9fc8ecdfc054434f4bb2d43
         </span>
 
         <DarkMode />

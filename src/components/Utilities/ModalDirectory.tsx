@@ -57,7 +57,11 @@ const ModalDirectory: React.FC<{
             </div>
           )}
         </div>
+<<<<<<< HEAD
         <button className="btn mt-6" onClick={confirmDirNameHandler}>
+=======
+        <button className="btn mt-6" >
+>>>>>>> 6121bd2978936fe6d9fc8ecdfc054434f4bb2d43
           {btnText}
         </button>
       </form>

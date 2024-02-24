@@ -26,7 +26,10 @@ const BtnEditTask: React.FC<{ task: Task }> = ({ task }) => {
       <button
         title="edit task"
         className="transition w-7 sm:w-8 h-6 sm:h-8 grid place-items-center dark:hover:text-slate-200 hover:text-slate-700"
+<<<<<<< HEAD
         onClick={openModalEditTask}
+=======
+>>>>>>> 6121bd2978936fe6d9fc8ecdfc054434f4bb2d43
       >
         <OptionsSvg className="w-4 sm:w-5 h-4 sm:h-5" />
       </button>

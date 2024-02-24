@@ -49,7 +49,10 @@ const LayoutRoutes: React.FC<Props> = ({ title, tasks }) => {
         ))}
         <li>
           <button
+<<<<<<< HEAD
             onClick={openModalHandler}
+=======
+>>>>>>> 6121bd2978936fe6d9fc8ecdfc054434f4bb2d43
             className={`border-2 border-slate-300
              text-slate-400 w-full rounded-lg
               border-dashed transition hover:bg-slate-300
