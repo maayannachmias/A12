@@ -18,26 +18,16 @@ const ButtonsSort: React.FC<{
 }> = ({ isListInView1, setIsListInView1, sortedBy, setSortedBy }) => {
   return (
     <div className="flex children-styles">
-<<<<<<< HEAD
       <button onClick={() => setIsListInView1(true)} title="view in list">
         <IconView1 className={isListInView1 ? "text-violet-600" : ""} />
       </button>
       <button onClick={() => setIsListInView1(false)} title="view in grid">
-=======
-      <button  title="view in list">
-        <IconView1 className={isListInView1 ? "text-violet-600" : ""} />
-      </button>
-      <button  title="view in grid">
->>>>>>> 6121bd2978936fe6d9fc8ecdfc054434f4bb2d43
         <IconView2 className={!isListInView1 ? "text-violet-600" : ""} />
       </button>
       <select
         className="ml-auto inputStyles"
         value={sortedBy}
-<<<<<<< HEAD
         onChange={({ target }) => setSortedBy(target.value)}
-=======
->>>>>>> 6121bd2978936fe6d9fc8ecdfc054434f4bb2d43
       >
         <option value="" disabled>
           Sort by

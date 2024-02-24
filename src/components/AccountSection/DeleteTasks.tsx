@@ -22,13 +22,9 @@ const DeleteTasks: React.FC = () => {
         />
       )}
       <button
-<<<<<<< HEAD
         className="mt-auto text-left pt-4 hover:text-rose-600 dark:hover:text-slate-200 transition "
         onClick={() => setIsModalShown(true)}
       >
-=======
-        className="mt-auto text-left pt-4 hover:text-rose-600 dark:hover:text-slate-200 transition ">
->>>>>>> 6121bd2978936fe6d9fc8ecdfc054434f4bb2d43
         Delete all data
       </button>
     </>

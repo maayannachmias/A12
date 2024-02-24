@@ -30,10 +30,7 @@ const Notification: React.FC = () => {
     <div className="sm:mr-4 md:mr-6 ml-auto grid place-items-center relative">
       <button
         ref={refBtnNotification}
-<<<<<<< HEAD
         onClick={showNotifications}
-=======
->>>>>>> 6121bd2978936fe6d9fc8ecdfc054434f4bb2d43
         className={`relative ${tasksToShow.length ? classHasNotification : ""}`}
         title="see notifications"
       >

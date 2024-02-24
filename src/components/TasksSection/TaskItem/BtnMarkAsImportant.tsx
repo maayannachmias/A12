@@ -16,10 +16,7 @@ const BtnMarkAsImportant: React.FC<{
   return (
     <button
       title={taskImportant ? "unmark as important" : "mark as important"}
-<<<<<<< HEAD
       onClick={markAsImportantHandler}
-=======
->>>>>>> 6121bd2978936fe6d9fc8ecdfc054434f4bb2d43
       className="transition hover:text-slate-700 dark:hover:text-slate-200 ml-auto"
     >
       <StarLine

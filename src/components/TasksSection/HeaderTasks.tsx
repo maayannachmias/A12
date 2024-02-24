@@ -50,10 +50,7 @@ const HeaderTasks: React.FC = () => {
     <header className="items-center grid grid-cols-[1fr_auto_1fr] gap-4 md:gap-0 md:flex ">
           <button
             className="mr-6 block xl:hidden"
-<<<<<<< HEAD
             onClick={openMenuHeaderHandler}
-=======
->>>>>>> 6121bd2978936fe6d9fc8ecdfc054434f4bb2d43
             title="open menu"
           >
             <MenuIcon />

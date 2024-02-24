@@ -23,10 +23,7 @@ const BtnToggleCompleted: React.FC<{
           ? "bg-emerald-200 text-emerald-800 "
           : "bg-amber-200 text-amber-800 "
       } ${isListInView1 ? "mr-4" : "mr-4 order-0"} rounded-full font-medium`}
-<<<<<<< HEAD
       onClick={() => toggleTaskCompleted(taskId)}
-=======
->>>>>>> 6121bd2978936fe6d9fc8ecdfc054434f4bb2d43
     >
       <span className="block py-1 px-3 absolute invisible sm:static sm:visible">
         {taskCompleted ? "completed" : "uncompleted"}

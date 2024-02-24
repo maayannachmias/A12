@@ -21,10 +21,7 @@ const LayoutMenus: React.FC<{
       {menuOpen && !mediaQueries.xl && (
         <div
           className="fixed bg-slate-600/[.2] w-full h-full z-10 top-0 left-0"
-<<<<<<< HEAD
           onClick={closeMenuHandler}
-=======
->>>>>>> 6121bd2978936fe6d9fc8ecdfc054434f4bb2d43
         ></div>
       )}
     </>

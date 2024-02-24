@@ -21,10 +21,7 @@ const BtnDeleteTask: React.FC<{ taskId: string }> = ({ taskId }) => {
         />
       )}
       <button
-<<<<<<< HEAD
         onClick={() => setIsModalShown(true)}
-=======
->>>>>>> 6121bd2978936fe6d9fc8ecdfc054434f4bb2d43
         title="delete task"
         className="ml-2 transition hover:text-slate-700 dark:hover:text-slate-200"
       >
